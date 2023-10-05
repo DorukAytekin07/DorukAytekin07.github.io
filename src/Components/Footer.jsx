@@ -3,7 +3,7 @@ export default class Footer extends React.Component {
     render(){
         return(
             <footer className="footer">
-                <p>© 2023 Doruk Aytekin All Right Public</p>
+                <p>© 2023 Doruk Aytekin All Right Reserved</p>
             </footer>
         );
     }
