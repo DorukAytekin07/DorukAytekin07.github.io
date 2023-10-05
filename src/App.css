@@ -1,0 +1,227 @@
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(209, 100%, 30%);
+    /*0CAFFF*/
+    height: 75px;
+    align-items: center;
+}
+.nav-bar-p{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 2rem;
+    color: azure;
+}
+.nav-links a{
+    
+    color: azure;
+    padding-right: 50px;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav-links a:last-of-type{
+
+    padding-right: 25px;
+}
+.home-text{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-text-title{
+    text-align: center;
+    font-weight: 800;
+    color: azure;
+    font-size: 3rem;;
+}
+.home-text-desc{
+    text-align: center;
+    color: azure;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-right: 5px;
+}
+#works{
+    padding-top: 75px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-title{
+    text-align: center;
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 4rem;
+    width: 100vw;
+    margin: 5vh auto;
+    
+}
+.project-div{
+    border-radius: 2%;
+    background-color: #004F98;
+    border:5px #004F98 solid;
+    margin:10px auto;
+    width:300px;
+    
+}
+.project-img{
+    object-fit: fill;
+    box-sizing: border-box;
+    padding: 10px 10px;;
+    border-radius: 5%;
+    width:100%;
+    height:300px;;
+}
+.project-p{
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto; 
+    margin: 20px auto;
+}
+.project-a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.project-a:hover{
+    text-decoration: underline;
+    color: azure;
+}
+.project-a p{
+    width: fit-content;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: hsl(209, 100%, 30%);
+    border-radius: 5px;;
+    margin-top: 20px;
+}
+#about-me{
+    padding-top: 75px;
+}
+.about-me-title{
+    color: azure;
+    text-align: center;
+    font-size: 4rem;
+    
+    
+}
+.social-accounts-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+
+}
+.social-accounts-a{
+    width:70px;
+    margin: 50px auto;
+}
+.social-accounts-a img:hover{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(97%);
+    /* background-color: #004F98; */
+}
+.certificates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.certificate{
+    width: 280px;
+    background-color:#fff;
+    border:solid 2vmin #111;
+    border-bottom-color:#000;
+    border-left-color:#111;
+    border-radius:10px;
+    border-right-color:#111;
+    border-top-color:#222;
+    box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+}
+.certificates-title{
+    color: azure;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom:5vh;
+}
+.footer{
+    /* background: linear-gradient(62deg, #3a3d40 0%, #181719 100%); */
+    border-top: #eee 5px solid;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+@media screen and (max-width: 870px) {
+   
+    .nav-bar-p{
+        font-weight: bold;
+        padding-left: 10px;
+        font-size: 3rem;
+
+        color: azure;
+    }
+    .nav-bar{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(209, 100%, 30%);
+        height: fit-content;  
+    }
+    
+}
+@media screen and (max-width: 580px) {
+    
+    .nav-bar-p{
+        font-weight: bold;
+        padding-left: 10px;
+        font-size: 3rem;
+
+        color: azure;
+    }
+    .nav-bar{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(209, 100%, 30%);
+        height: fit-content;  
+    }
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links a{
+        color: azure;
+        text-align: center;
+        padding-right: 0px;
+        font-size: 2rem;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .nav-links a:last-of-type{
+        color: azure;
+        padding-right: 0px;
+        font-size: 2rem;
+        text-decoration: none;
+
+        font-weight: 600;
+    }
+    .social-accounts-a{
+        width:50px;
+        margin: 50px auto;
+    }
+    
+}
