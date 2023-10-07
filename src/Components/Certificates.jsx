@@ -1,9 +1,10 @@
 import React from "react";
 import JS from "../assets/img/certificates/CS-Certificate.webp"
-import Sertifikalar from "../certificates.json"
+import Sertifikalar from "../../src/certificates.json"
 
 export default class Certificates extends React.Component {
     certificate = Sertifikalar.certificates.map(sertifika => {
+        console.log(sertifika.img)
         return(<Certificate {...sertifika}></Certificate>)
     })
     render(){
@@ -20,6 +21,7 @@ export default class Certificates extends React.Component {
 class Certificate extends React.Component{
     render(){
         return(
+            
             <img className="certificate" src={this.props.img} alt="" />
         )
     }
