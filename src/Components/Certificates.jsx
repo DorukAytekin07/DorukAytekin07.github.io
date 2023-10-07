@@ -22,7 +22,7 @@ class Certificate extends React.Component{
     render(){
         return(
             
-            <img className="certificate" src={this.props.img} alt="" />
+            <img className="certificate" src={JS} alt="" />
         )
     }
 }
