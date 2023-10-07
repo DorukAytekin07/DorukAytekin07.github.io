@@ -1,7 +1,7 @@
 {
     "certificates":[
         {
-            "img":"src/assets/img/certificates/Java Certificate.webp"
+            "img":"../src/assets/img/certificates/Java Certificate.webp"
         },
         {
             "img":"../../src/assets/img/certificates/CS-Certificate.webp"
