@@ -9,12 +9,15 @@ export default class Projects extends React.Component{
     })
     render(){
         return(
-        
-            <section id="works">
+            <div id="works">
                 <h2 className="project-title">My Projects</h2>
+            <section id="work">
+                
                 {this.proje}
             </section>
         
+            </div>
+            
     
         );    
     }

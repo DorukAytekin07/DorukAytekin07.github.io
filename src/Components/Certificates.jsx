@@ -8,12 +8,15 @@ export default class Certificates extends React.Component {
     })
     render(){
         return(
-            <section>
+            <div>
                 <h2 className="certificates-title">My Certifications</h2>
-                <div className="certificates">
-                    {this.certificate}
-                </div>
-            </section>
+                <section className="certificates-container">
+                    <div className="certificates">
+                        {this.certificate}
+                    </div>
+                </section>
+            </div>
+            
         );
     }
 }

@@ -9,6 +9,9 @@
     height: 75px;
     align-items: center;
 }
+:root::-webkit-scrollbar {
+    display: none;
+}
 .nav-bar-p{
     font-weight: bold;
     padding-left: 10px;
@@ -27,6 +30,7 @@
 
     padding-right: 25px;
 }
+
 .home-text{
     height: 100vh;
     width: 100%;
@@ -48,13 +52,30 @@
     font-size: 2rem;
     padding-right: 5px;
 }
-#works{
-    padding-top: 75px;
+#work{
     height: fit-content;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
+    overflow-x: auto;
+    gap: 2rem;
+}
+#work::-webkit-scrollbar {
+    width: 12px;
+    height: 15px;
+}
+
+#work::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #95a5a6;
+    border: 1px solid #cacaca;
+}
+
+#work::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #2c3e50;
 }
 .project-title{
+    padding-top: 75px;
     text-align: center;
     box-sizing: content-box;
     align-items: center;
@@ -63,9 +84,9 @@
     font-size: 4rem;
     width: 100vw;
     margin: 5vh auto;
-    
 }
 .project-div{
+    flex: 0 0 auto;
     border-radius: 2%;
     background-color: #004F98;
     border:5px #004F98 solid;
@@ -135,9 +156,11 @@
     gap: 0.5rem;
 }
 .certificate{
+    margin: 0;
+    padding: 0;
     width: 280px;
     background-color:#fff;
-    border:solid 2vmin #111;
+    border:solid 3vmin #111;
     border-bottom-color:#000;
     border-left-color:#111;
     border-radius:10px;
@@ -178,6 +201,9 @@
         align-items: center;
         background-color: hsl(209, 100%, 30%);
         height: fit-content;  
+    }
+    #work::-webkit-scrollbar {
+        display: none;
     }
     
 }
@@ -223,5 +249,20 @@
         width:50px;
         margin: 50px auto;
     }
-    
+    #work::-webkit-scrollbar {
+        display: none;
+    }
+    .certificate{
+        margin: 0;
+        padding: 0;
+        width: 270px;
+        background-color:#fff;
+        border:solid 4vmin #111;
+        border-bottom-color:#000;
+        border-left-color:#111;
+        border-radius:10px;
+        border-right-color:#111;
+        border-top-color:#222;
+        box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    }
 }
