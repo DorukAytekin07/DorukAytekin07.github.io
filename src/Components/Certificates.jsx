@@ -1,4 +1,5 @@
 import React from "react";
+import JS from "../assets/img/certificates/CS-Certificate.webp"
 import Sertifikalar from "../certificates.json"
 
 export default class Certificates extends React.Component {
