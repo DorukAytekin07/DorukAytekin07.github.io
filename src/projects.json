@@ -1,0 +1,28 @@
+{
+    "projects":[
+        {
+            "img":"../../src/assets/img/projects/Personal_Page.webp",
+            "description":"Personal Website"
+        },
+        {
+            "img":"../../src/assets/img/projects/Convert.webp",
+            "description":"Converter"
+        },
+        {
+            "img":"../../src/assets/img/projects/Cs Go.webp",
+            "description":"Cs Go 2D Edition"
+        },
+        {
+            "img":"../../src/assets/img/projects/Library.webp",
+            "description":"My Software Library"
+        },
+        {
+            "img":"../../src/assets/img/projects/WW2 Catch Game.webp",
+            "description":"WW2 Catch Game"
+        },
+        {
+            "img":"../../src/assets/img/projects/Amal Hawks Site.webp",
+            "description":"Amal Hawks Site"
+        }
+    ]        
+}
