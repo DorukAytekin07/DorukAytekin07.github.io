@@ -1,34 +1,34 @@
 {
     "certificates":[
         {
-            "img":"../src/assets/img/certificates/Java Certificate.webp"
+            "img":"./Java Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/CS-Certificate.webp"
+            "img":"./CS-Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/CSS Certificate.webp"
+            "img":"./CSS Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/JavaScript Certificate.webp"
+            "img":"../JavaScript Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/Problem Solving Certificate.webp"
+            "img":"../Problem Solving Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/Python Certificate.webp"
+            "img":"../Python Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/SQL Certificate.webp"
+            "img":"../SQL Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/React Certificate.webp"
+            "img":"../React Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/Responsive Web Design Certificate.webp"
+            "img":"../Responsive Web Design Certificate.webp"
         },
         {
-            "img":"../../src/assets/img/certificates/JavaScript Algorithms And Data Structures Certificate.webp"
+            "img":"../JavaScript Algorithms And Data Structures Certificate.webp"
         }
     ]        
 }

@@ -1,7 +1,7 @@
 {
     "projects":[
         {
-            "img":"./Personal_Page.webp",
+            "img":"../../src/assets/img/projects/Personal_Page.webp",
             "description":"Personal Website"
         },
         {
