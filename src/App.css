@@ -19,7 +19,6 @@
     color: azure;
 }
 .nav-links a{
-    
     color: azure;
     padding-right: 50px;
     font-size: 2rem;
@@ -27,10 +26,8 @@
     font-weight: 600;
 }
 .nav-links a:last-of-type{
-
     padding-right: 25px;
 }
-
 .home-text{
     height: 100vh;
     width: 100%;
@@ -61,21 +58,19 @@
 }
 #work::-webkit-scrollbar {
     width: 12px;
-    height: 15px;
+    height: 17px;
 }
-
 #work::-webkit-scrollbar-track {
     border-radius: 8px;
     background-color: #95a5a6;
     border: 1px solid #cacaca;
 }
-
 #work::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-color: #2c3e50;
 }
 .project-title{
-    padding-top: 75px;
+    padding-top: 85px;
     text-align: center;
     box-sizing: content-box;
     align-items: center;
@@ -83,7 +78,8 @@
     color: azure;
     font-size: 4rem;
     width: 100vw;
-    margin: 5vh auto;
+    margin: 0 auto;
+    margin-bottom: 5vh;
 }
 .project-div{
     flex: 0 0 auto;
@@ -92,6 +88,7 @@
     border:5px #004F98 solid;
     margin:10px auto;
     width:300px;
+    padding: 3px;
     
 }
 .project-img{
@@ -107,6 +104,8 @@
     width: fit-content;
     margin: 0 auto; 
     margin: 20px auto;
+    font-size: 2.3rem;
+    color: azure;
 }
 .project-a{
     text-decoration: none;
@@ -123,23 +122,22 @@
     background-color: hsl(209, 100%, 30%);
     border-radius: 5px;;
     margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.7rem;;
 }
 #about-me{
-    padding-top: 75px;
+    padding-top: 85px;
 }
 .about-me-title{
     color: azure;
     text-align: center;
     font-size: 4rem;
-    
-    
 }
 .social-accounts-div{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: fit-content;
-
 }
 .social-accounts-a{
     width:70px;
@@ -147,7 +145,6 @@
 }
 .social-accounts-a img:hover{
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(97%);
-    /* background-color: #004F98; */
 }
 .certificates{
     display: flex;
@@ -175,7 +172,6 @@
     margin-bottom:5vh;
 }
 .footer{
-    /* background: linear-gradient(62deg, #3a3d40 0%, #181719 100%); */
     border-top: #eee 5px solid;
     margin-top: 10vh;
     display: flex;
@@ -185,14 +181,6 @@
     width: 100%;
 }
 @media screen and (max-width: 870px) {
-   
-    .nav-bar-p{
-        font-weight: bold;
-        padding-left: 10px;
-        font-size: 3rem;
-
-        color: azure;
-    }
     .nav-bar{
         width: 100vw;
         display: flex;
@@ -202,48 +190,42 @@
         background-color: hsl(209, 100%, 30%);
         height: fit-content;  
     }
+    .project-title{
+        padding-top: 95px;
+    }
+    #about-me{
+        padding-top: 95px;
+    }
     #work::-webkit-scrollbar {
         display: none;
     }
-    
 }
 @media screen and (max-width: 580px) {
-    
     .nav-bar-p{
         font-weight: bold;
         padding-left: 10px;
         font-size: 3rem;
-
         color: azure;
     }
     .nav-bar{
-        position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: hsl(209, 100%, 30%);
-        height: fit-content;  
     }
     .nav-links{
         display: flex;
         flex-direction: column;
     }
     .nav-links a{
-        color: azure;
         text-align: center;
         padding-right: 0px;
-        font-size: 2rem;
-        text-decoration: none;
-        font-weight: 600;
     }
     .nav-links a:last-of-type{
-        color: azure;
         padding-right: 0px;
-        font-size: 2rem;
-        text-decoration: none;
-
-        font-weight: 600;
+    }
+    .project-title{
+        padding-top: 140px;
     }
     .social-accounts-a{
         width:50px;
@@ -252,17 +234,14 @@
     #work::-webkit-scrollbar {
         display: none;
     }
+    #about-me{
+        padding-top: 140px;
+    }
     .certificate{
-        margin: 0;
-        padding: 0;
         width: 270px;
-        background-color:#fff;
-        border:solid 4vmin #111;
-        border-bottom-color:#000;
-        border-left-color:#111;
-        border-radius:10px;
-        border-right-color:#111;
-        border-top-color:#222;
-        box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    }
+    .project-a p{
+        font-weight: 600;
+        font-size: 2rem;;
     }
 }

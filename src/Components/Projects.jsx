@@ -27,7 +27,7 @@ class Project extends React.Component {
         return(
             <div className="project-div">
                 <img className="project-img" src={this.props.img} alt=""/>
-                <p className="project-p">{this.props.description}</p>
+                <h3 className="project-p">{this.props.description}</h3>
                 <a className="project-a" href="#"><p>Show More</p></a>
             </div>
         );
