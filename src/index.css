@@ -3,41 +3,31 @@
     padding: 0;
     scroll-behavior: smooth;
     font-size: 20px;
-    overflow-x: hidden;
-}
+    overflow-x: hidden;}
 body{
     font-family:Raleway;
-    /* background: linear-gradient(60deg, #29323c 0%, #485563 100%); */
     background: linear-gradient(67deg, #3a3d40 0%, #181719 100%);
-    width: 100%;
-}
+    width: 100%;}
 p{
     color:  azure ;
     text-align: center;
     font-size: 1.7rem;
-    font-weight: 500;
-    pointer-events: none;
-}
+    font-weight: 500;}
 a:hover{
-    text-decoration: underline;
-}
+    text-decoration: underline;}
 h1{
     color: azure;
     text-align: center;
-    font-size: 3rem;
-}
+    font-size: 3rem;}
 @media screen and (max-width: 870px) {
     *{
         font-size: 18px;
-        overflow-x: hidden;
-    }
+        overflow-x: hidden;}
 }
 @media screen and (max-width: 580px) {
     *{
         font-size: 12px;
-        overflow-x: hidden;
-    }
+        overflow-x: hidden;}
     body{
-        width:100%;
-    }   
+        width:100%;}   
 }

@@ -7,14 +7,16 @@ export default class Projects extends React.Component{
     proje = Projeler.projects.map(project => {              
         return(<Project {...project}></Project>) 
     })
+
     render(){
         return(
             <div id="works">
                 <h2 className="project-title">My Projects</h2>
-            <section id="work">
+                <section id="work">
                 
-                {this.proje}
-            </section>
+                    {this.proje}
+
+                </section>
         
             </div>
             
@@ -34,4 +36,5 @@ class Project extends React.Component {
             
             
     }
+    
 }
