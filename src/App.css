@@ -147,15 +147,15 @@
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(97%);
 }
 .certificates{
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
 }
 .certificate{
-    margin: 0;
-    padding: 0;
-    width: 280px;
+    width: 300px;
+    height: fit-content;
     background-color:#fff;
     border:solid 3vmin #111;
     border-bottom-color:#000;
@@ -198,6 +198,18 @@
     }
     #work::-webkit-scrollbar {
         display: none;
+    }
+    .certificates-container{
+        display: flex;
+        flex-wrap:nowrap;
+        overflow: auto;
+    }
+    .certificate{
+        height: auto;
+    }
+    .certificates{
+        flex: 0 0 auto;
+        gap: 0.5rem;
     }
 }
 @media screen and (max-width: 580px) {
@@ -243,5 +255,11 @@
     .project-a p{
         font-weight: 600;
         font-size: 2rem;;
+    }
+    .certificates{
+        gap: 1rem;
+    }
+    .certificate{
+        width: 270px;
     }
 }
