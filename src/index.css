@@ -25,7 +25,6 @@ h1{
     color: azure;
     text-align: center;
     font-size: 3rem;
-    
 }
 @media screen and (max-width: 870px) {
     *{
@@ -37,10 +36,8 @@ h1{
     *{
         font-size: 12px;
         overflow-x: hidden;
-        
     }
     body{
         width:100%;
-        
     }   
 }
