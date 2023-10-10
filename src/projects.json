@@ -25,6 +25,10 @@
             "description":"Random Quote Machine"
         },
         {
+            "img":"./Drum_Machine.webp",
+            "description":"Drum Machine"
+        },
+        {
             "img":"./Music_Player.webp",
             "description":"Virtual Mp3 Player"
         },

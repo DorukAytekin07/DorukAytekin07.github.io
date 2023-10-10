@@ -6,6 +6,7 @@ import Footer from "./Components/Footer"
 import Certificates from "./Components/Certificates"
 import "./App.css"
 function App() {
+  //projelerin hreflerini ekle
   return(
     <div>
       <Navbar></Navbar>
