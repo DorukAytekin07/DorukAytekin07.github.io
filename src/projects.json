@@ -25,6 +25,10 @@
             "description":"Random Quote Machine"
         },
         {
+            "img":"./Music_Player.webp",
+            "description":"Virtual Mp3 Player"
+        },
+        {
             "img":"../Amal Hawks Site.webp",
             "description":"Amal Hawks WebSite"
         }
