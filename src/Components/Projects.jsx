@@ -28,7 +28,7 @@ class Project extends React.Component {
             <div className="project-div">
                 <img className="project-img" src={this.props.img} alt=""/>
                 <h3 className="project-p">{this.props.description}</h3>
-                <a className="project-a" href={this.props.href}><p>Show More</p></a>
+                <a className="project-a" href={this.props.href} target="_blank"><p>Show More</p></a>
             </div>
         );
             
