@@ -13,9 +13,7 @@ export default class Projects extends React.Component{
             <div id="works">
                 <h2 className="project-title">My Projects</h2>
                 <section id="work">
-                
                     {this.proje}
-
                 </section>
         
             </div>
@@ -30,7 +28,7 @@ class Project extends React.Component {
             <div className="project-div">
                 <img className="project-img" src={this.props.img} alt=""/>
                 <h3 className="project-p">{this.props.description}</h3>
-                <a className="project-a" href="#"><p>Show More</p></a>
+                <a className="project-a" href={this.props.href}><p>Show More</p></a>
             </div>
         );
             

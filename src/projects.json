@@ -2,39 +2,53 @@
     "projects":[
         {
             "img":"../Personal_Page.webp",
-            "description":"Personal Website"
+            "description":"Personal Website",
+            "href":"#"
         },
         {
             "img":"../Convert.webp",
-            "description":"Converter"
+            "description":"Converter",
+            "href":"https://github.com/DorukAytekin07/Converter/tree/release"
         },
         {
             "img":"../Cs Go.webp",
-            "description":"Cs Go 2D Edition"
+            "description":"Cs Go 2D Edition",
+            "href":"https://github.com/DorukAytekin07/CS-GO"
         },
         {
             "img":"../Library.webp",
-            "description":"My Software Library"
+            "description":"My Software Library",
+            "href":"https://github.com/DorukAytekin07/My-Software-Kutuphane"
         },
         {
             "img":"../WW2 Catch Game.webp",
-            "description":"WW2 Catch Game"
+            "description":"WW2 Catch Game",
+            "href":"https://github.com/DorukAytekin07/WW2_Catch_Game"
+        },
+        {
+            "img":"../Calculator.webp",
+            "description":"Calculator",
+            "href":"https://dorukaytekin07.github.io/CalculatorApp/"
         },
         {
             "img":"./Random_Quote_Machine.webp",
-            "description":"Random Quote Machine"
+            "description":"Random Quote Machine",
+            "href":"https://dorukaytekin07.github.io/RandomQuoteMachine/"
         },
         {
             "img":"./Drum_Machine.webp",
-            "description":"Drum Machine"
+            "description":"Drum Machine",
+            "href":"https://dorukaytekin07.github.io/Drum-Machine/"
         },
         {
             "img":"./Music_Player.webp",
-            "description":"Virtual Mp3 Player"
+            "description":"Virtual Mp3 Player",
+            "href":"https://dorukaytekin07.github.io/Mp3Player/"
         },
         {
             "img":"../Amal Hawks Site.webp",
-            "description":"Amal Hawks WebSite"
+            "description":"Amal Hawks WebSite",
+            "href":"https://amalhawks7611.github.io/"
         }
     ]        
 }
