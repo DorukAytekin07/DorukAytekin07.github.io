@@ -1,57 +1,57 @@
 {
     "projects":[
         {
-            "img":"./Personal_Page.webp",
+            "img":"./Certificates/Personal_Page.webp",
             "description":"Personal Website",
             "href":"#"
         },
         {
-            "img":"./Convert.webp",
+            "img":"./Certificates/Convert.webp",
             "description":"Converter",
             "href":"https://github.com/DorukAytekin07/Converter/tree/release"
         },
         {
-            "img":"./Cs Go.webp",
+            "img":"./Certificates/Cs Go.webp",
             "description":"Cs Go 2D Edition",
             "href":"https://github.com/DorukAytekin07/CS-GO"
         },
         {
-            "img":"./Library.webp",
+            "img":"./Certificates/Library.webp",
             "description":"My Software Library",
             "href":"https://github.com/DorukAytekin07/My-Software-Kutuphane"
         },
         {
-            "img":"./WW2 Catch Game.webp",
+            "img":"./Certificates/WW2 Catch Game.webp",
             "description":"WW2 Catch Game",
             "href":"https://github.com/DorukAytekin07/WW2_Catch_Game"
         },
         {
-            "img":"./Calculator.webp",
+            "img":"./Certificates/Calculator.webp",
             "description":"Calculator",
             "href":"https://dorukaytekin07.github.io/CalculatorApp/"
         },
         {
-            "img":"./Random_Quote_Machine.webp",
+            "img":"./Certificates/Random_Quote_Machine.webp",
             "description":"Random Quote Machine",
             "href":"https://dorukaytekin07.github.io/RandomQuoteMachine/"
         },
         {
-            "img":"./PomodoroClock.webp",
+            "img":"./Certificates/PomodoroClock.webp",
             "description":"25+5 Clock",
             "href":"https://dorukaytekin07.github.io/25-5-Clock/"
         },
         {
-            "img":"./Drum_Machine.webp",
+            "img":"./Certificates/Drum_Machine.webp",
             "description":"Drum Machine",
             "href":"https://dorukaytekin07.github.io/Drum-Machine/"
         },
         {
-            "img":"./Music_Player.webp",
+            "img":"./Certificates/Music_Player.webp",
             "description":"Virtual Mp3 Player",
             "href":"https://dorukaytekin07.github.io/Mp3Player/"
         },
         {
-            "img":"../Amal Hawks Site.webp",
+            "img":"../Certificates/Amal Hawks Site.webp",
             "description":"Amal Hawks WebSite",
             "href":"https://amalhawks7611.github.io/"
         }
