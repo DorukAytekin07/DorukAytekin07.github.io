@@ -1,5 +1,5 @@
 import React from "react";
-import Sertifikalar from "../certificates.json"
+import Sertifikalar from "../../certificates.json"
 
 export default class Certificates extends React.Component {
     certificate = Sertifikalar.certificates.map(sertifika => {
@@ -23,7 +23,7 @@ export default class Certificates extends React.Component {
 class Certificate extends React.Component{
     render(){
         return(
-            <img className="certificate" src={this.props.img} alt="" />
+            <img className="certificate" src={this.props.img} alt="Doruk Aytekin Certificate" />
         )
     }
 }

@@ -1,3 +1,12 @@
+.center{
+    margin: auto;
+}
+.link{
+    color: azure;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
 .nav-bar{
     width: 100%;
     position: fixed;
@@ -8,6 +17,12 @@
     height: 75px;
     align-items: center;
 }
+.nav-bar-document{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(209, 100%, 30%);
+    height: 75px;
+}
 :root::-webkit-scrollbar {
     display: none;
 }
@@ -16,6 +31,7 @@
     padding-left: 10px;
     font-size: 2rem;
     color: azure;
+    text-align: center;
 }
 .nav-links a{
     color: azure;

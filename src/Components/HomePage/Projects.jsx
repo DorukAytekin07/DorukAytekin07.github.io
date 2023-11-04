@@ -1,5 +1,5 @@
 import React from "react";
-import Projeler from '../projects.json'
+import Projeler from '../../projects.json'
 
 export default class Projects extends React.Component{
     
@@ -26,7 +26,7 @@ class Project extends React.Component {
     render(){
         return(
             <div className="project-div">
-                <img className="project-img" src={this.props.img} alt=""/>
+                <img className="project-img" src={this.props.img} alt="Doruk Aytekin Project"/>
                 <h3 className="project-p">{this.props.description}</h3>
                 <a className="project-a" href={this.props.href} target="_blank"><p>Show More</p></a>
             </div>
