@@ -1,12 +1,4 @@
-.center{
-    margin: auto;
-}
-.link{
-    color: azure;
-    font-size: 2rem;
-    text-decoration: none;
-    font-weight: 600;
-}
+
 .nav-bar{
     width: 100%;
     position: fixed;
@@ -85,6 +77,7 @@
     background-color: #2c3e50;
 }
 .project-title{
+    text-decoration: none;
     padding-top: 85px;
     text-align: center;
     box-sizing: content-box;
@@ -102,7 +95,7 @@
     background-color: #004F98;
     border:5px #004F98 solid;
     margin:10px auto;
-    width:300px;
+    width:310px;
     padding: 3px;
     
 }
@@ -117,6 +110,7 @@
 .project-p{
     text-align: center;
     width: fit-content;
+    text-overflow: clip;
     margin: 0 auto; 
     margin: 20px auto;
     font-size: 2.3rem;
