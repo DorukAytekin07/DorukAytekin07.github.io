@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" exact element={<Home/>}/>
-        <Route path="/sql" exact element={<SQL/>} />
-        <Route path="/documents" exact element={<Documents/>} />
+        <Route path="https://dorukaytekin07.github.io/sql" exact element={<SQL/>} />
+        <Route path="https://dorukaytekin07.github.io/documents" exact element={<Documents/>} />
       </Routes>
       <Footer></Footer>
     </Router>
