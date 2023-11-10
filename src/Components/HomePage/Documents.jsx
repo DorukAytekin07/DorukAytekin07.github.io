@@ -12,7 +12,7 @@ export default class Documents extends React.Component {
         return (
             <div>
                 <h2 className="project-title">
-                    <a href="/documents" className="project-title">My Documents</a>
+                    <a href="https://dorukaytekin07.github.io/documents" className="project-title">My Documents</a>
                 </h2>
                 <section id="work">
                     {this.dokumantasyon}
