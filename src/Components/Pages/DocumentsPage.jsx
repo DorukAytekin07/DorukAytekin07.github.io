@@ -1,6 +1,6 @@
 import React from "react";
-import Documentlar from '../documents.json'
-import Navbar from "./SQLPage/DocumentNavbar";
+import Documentlar from '../../JSON/documents.json'
+import Navbar from "../DocumentNavbar";
 
 export default class Documents extends React.Component {
     dokumantasyon = Documentlar.document.map(dokuman => {
@@ -11,8 +11,8 @@ export default class Documents extends React.Component {
         return (
             <div>
                 <Navbar></Navbar>
-                <section className="certificates-container paddigntop140">
-                <div className="certificates">
+                <section className="certificates-container paddingtopdocuments">
+                    <div className="certificates">
                         {this.dokumantasyon}
                     </div>
                 </section>

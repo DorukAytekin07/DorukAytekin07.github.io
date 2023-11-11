@@ -1,0 +1,33 @@
+.home-text{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-text-title{
+    text-align: center;
+    font-weight: 800;
+    color: azure;
+    font-size: 3rem;;
+}
+.home-text-desc{
+    text-align: center;
+    color: azure;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 870px) {}
+
+@media screen and (max-width: 580px) {
+    .home-text{
+        height: 60vh;
+        padding-top: 140px;
+    }
+    .home-text-title{
+        padding-top: 140px;
+    }
+}

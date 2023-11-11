@@ -1,5 +1,5 @@
 import React from "react";
-import DocumentNavbar from './SQLPage/DocumentNavbar.jsx'
+import DocumentNavbar from '../DocumentNavbar'
 export default function SQL(){
     return(
         <div>

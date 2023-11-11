@@ -1,0 +1,98 @@
+#work{
+    height: fit-content;
+    display: flex;
+    flex-wrap:nowrap;
+    overflow-x: auto;
+    gap: 2rem;
+}
+#work::-webkit-scrollbar {
+    width: 12px;
+    height: 17px;
+}
+#work::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #95a5a6;
+    border: 1px solid #cacaca;
+}
+#work::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #2c3e50;
+}
+.project-title{
+    text-decoration: none;
+    padding-top: 85px;
+    text-align: center;
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 4rem;
+    width: 100vw;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+.project-div{
+    flex: 0 0 auto;
+    border-radius: 2%;
+    background-color: #004F98;
+    border:5px #004F98 solid;
+    margin:10px auto;
+    width:310px;
+    padding: 3px;
+    
+}
+.project-img{
+    object-fit: fill;
+    box-sizing: border-box;
+    padding: 10px 10px;;
+    border-radius: 5%;
+    width:100%;
+    height:300px;;
+}
+.project-p{
+    text-align: center;
+    width: fit-content;
+    text-overflow: clip;
+    margin: 0 auto; 
+    margin: 20px auto;
+    font-size: 2.3rem;
+    color: azure;
+}
+.project-a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.project-a:hover{
+    text-decoration: underline;
+    color: azure;
+}
+.project-a p{
+    width: fit-content;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: hsl(209, 100%, 30%);
+    border-radius: 5px;;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.7rem;;
+}
+@media screen and (max-width: 870px) {
+    .project-title{
+        padding-top: 95px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .project-title{
+        padding-top: 140px;
+    }
+    .project-a p{
+        font-weight: 600;
+        font-size: 2rem;;
+    }
+    #work::-webkit-scrollbar {
+        display: none;
+    }
+    
+
+}

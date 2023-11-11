@@ -1,5 +1,5 @@
 import React from "react";
-import Documentlar from '../../documents.json'
+import Documentlar from '../../JSON/documents.json'
 
 export default class Documents extends React.Component {
 

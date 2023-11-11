@@ -1,5 +1,5 @@
 import React from "react";
-import Sertifikalar from "../../certificates.json"
+import Sertifikalar from "../../JSON/certificates.json"
 
 export default class Certificates extends React.Component {
     certificate = Sertifikalar.certificates.map(sertifika => {

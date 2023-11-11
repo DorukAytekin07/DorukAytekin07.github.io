@@ -1,0 +1,36 @@
+#about-me{
+    padding-top: 85px;
+}
+.about-me-title{
+    color: azure;
+    text-align: center;
+    font-size: 4rem;
+}
+.social-accounts-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+}
+.social-accounts-a{
+    width:70px;
+    margin: 50px auto;
+}
+.social-accounts-a img:hover{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(97%);
+}
+@media screen and (max-width: 870px) {
+    #about-me{
+        padding-top: 95px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .social-accounts-a{
+        width:50px;
+        margin: 50px auto;
+    }
+    #about-me{
+        padding-top: 140px;
+    }
+    
+}

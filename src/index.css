@@ -7,7 +7,12 @@
 body{
     font-family:Roboto;
     background: linear-gradient(67deg, #3a3d40 0%, #181719 100%);
-    width: 100%;}
+    width: 100%;
+    height: 100vh;   
+}
+body::-webkit-scrollbar{
+    display: none;
+}
 p{
     color:  azure ;
     text-align: center;
@@ -22,12 +27,10 @@ h1{
 @media screen and (max-width: 870px) {
     *{
         font-size: 18px;
-        overflow-x: hidden;}
+    }
 }
 @media screen and (max-width: 580px) {
     *{
         font-size: 12px;
-        overflow-x: hidden;}
-    body{
-        width:100%;}   
+    }   
 }

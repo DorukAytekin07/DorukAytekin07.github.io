@@ -1,11 +1,19 @@
 import Footer from "./Components/HomePage/Footer"
-import Home from "./Components/Home";
-import SQL from "./Components/SQL";
-import Documents from "./Components/DocumentsPage";
+import Home from "./Components/Pages/Home";
+import SQL from "./Components/Pages/SQL";
+import Documents from "./Components/Pages/DocumentsPage";
 import { Routes, Route, HashRouter } from 'react-router-dom';
 
 import "./App.css"
-import './CSS/Key.css'
+import './CSS/Certificates.css'
+import './CSS/Projects.css'
+import './CSS/Navbar.css'
+import './CSS/Welcome.css'
+import './CSS/Social.css'
+import './CSS/Footer.css'
+
+
+
 function App() {
   return(
     <HashRouter>
@@ -16,11 +24,7 @@ function App() {
         </Routes>
         <Footer></Footer>
     </HashRouter>
-    
-
-  );
-  
-  
+  );  
 }
 
 export default App

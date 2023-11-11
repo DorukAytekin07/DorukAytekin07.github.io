@@ -1,5 +1,5 @@
 import React from "react";
-import Projeler from '../../projects.json'
+import Projeler from '../../JSON/projects.json'
 
 export default class Projects extends React.Component{
     
