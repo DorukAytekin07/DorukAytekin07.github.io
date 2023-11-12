@@ -26,7 +26,7 @@ class Document extends React.Component {
     render(){
         return(
             <div className="project-div">
-                <img className="project-img" src={this.props.img} alt="Doruk Aytekin Project"/>
+                <img className="project-img" src={this.props.img} alt="Doruk Aytekin Project" width={300} height={400}/>
                 <h3 className="project-p">{this.props.name}</h3>
                 <a className="project-a" href={this.props.link} target="_blank"><p>Show More</p></a>
             </div>

@@ -14,7 +14,7 @@ export default class SocialAccounts extends React.Component {
                     <a className="social-accounts-a" target="_blank" href="https://github.com/DorukAytekin07?tab=repositories"><img src={Github} alt="Doruk Aytekin Github" /></a>
                     <a className="social-accounts-a" target="_blank" href="https://leetcode.com/DorukAytekin07/"><img src={Leetcode} alt="Doruk Aytekin Leetcode" /></a>
                     <a className="social-accounts-a" target="_blank" href="https://www.hackerrank.com/DorukAytekin07"><img src={Hackerrank} alt="Doruk Aytekin Hackerrank" /></a>
-                    <a className="social-accounts-a" target="_blank" href="https://www.freecodecamp.org/fccbbb41197-0e3f-4902-9e16-f395cd5b21ed"><img src={FreeCodeCamp} alt="Doruk Aytekin Free Code Camp" /></a>
+                    <a className="social-accounts-a" target="_blank" href="https://www.freecodecamp.org/fccbbb41197-0e3f-4902-9e16-f395cd5b21ed"><img src={FreeCodeCamp} alt="Doruk Aytekin Free Code Camp"/></a>
                 </div>
             </section>
         );
