@@ -5,6 +5,7 @@ import Projects from "../HomePage/Projects.jsx"
 import Certificates from "../HomePage/Certificates.jsx"
 import Navbar from "../HomePage/Navbar.jsx";
 import Documents from "../HomePage/Documents.jsx";
+import Footer from "../HomePage/Footer.jsx";
 export default function Home(){
     return(
         <div>
@@ -14,6 +15,7 @@ export default function Home(){
             <Documents></Documents>
             <SocialAccounts></SocialAccounts>
             <Certificates></Certificates>
+            <Footer></Footer>
         </div>
     );
 }

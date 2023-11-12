@@ -1,7 +1,7 @@
 import React from "react";
 import Documentlar from '../../JSON/documents.json'
 import Navbar from "../DocumentNavbar";
-
+import Footer from "../HomePage/Footer";
 export default class Documents extends React.Component {
     dokumantasyon = Documentlar.document.map(dokuman => {
             return(<Document {...dokuman}></Document>)
@@ -16,6 +16,7 @@ export default class Documents extends React.Component {
                         {this.dokumantasyon}
                     </div>
                 </section>
+                <Footer></Footer>
             </div>
         );
     }

@@ -15,15 +15,14 @@ body::-webkit-scrollbar{
 }
 p{
     color:  azure ;
-    text-align: center;
-    font-size: 1.7rem;
-    font-weight: 500;}
+    font-weight: 500;
+}
 a:hover{
     text-decoration: underline;}
 h1{
     color: azure;
     text-align: center;
-    font-size: 3rem;}
+}
 @media screen and (max-width: 870px) {
     *{
         font-size: 18px;

@@ -11,7 +11,7 @@ import './CSS/Navbar.css'
 import './CSS/Welcome.css'
 import './CSS/Social.css'
 import './CSS/Footer.css'
-
+import './CSS/CodeBlocks.css'
 
 
 function App() {
@@ -22,7 +22,6 @@ function App() {
           <Route path="/sql" exact element={<SQL/>} />
           <Route path="/documents" exact element={<Documents/>} />
         </Routes>
-        <Footer></Footer>
     </HashRouter>
   );  
 }

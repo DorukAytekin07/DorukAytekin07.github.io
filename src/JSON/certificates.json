@@ -1,40 +1,40 @@
 {
     "certificates":[
         {
-            "img":"./Java Certificate.webp"
+            "img":"./Certificates/Java Certificate.webp"
         },
         {
-            "img":"./CS-Certificate.webp"
+            "img":"./Certificates/CS-Certificate.webp"
         },
         {
-            "img":"./CSS Certificate.webp"
+            "img":"./Certificates/CSS Certificate.webp"
         },
         {
-            "img":"../JavaScript Certificate.webp"
+            "img":"./Certificates/JavaScript Certificate.webp"
         },
         {
-            "img":"../Problem Solving Certificate.webp"
+            "img":"./Certificates/Problem Solving Certificate.webp"
         },
         {
-            "img":"../Python Certificate.webp"
+            "img":"./Certificates/Python Certificate.webp"
         },
         {
-            "img":"../SQL Certificate.webp"
+            "img":"./Certificates/SQL Certificate.webp"
         },
         {
-            "img":"../React Certificate.webp"
+            "img":"./Certificates/React Certificate.webp"
         },
         {
-            "img":"../Responsive Web Design Certificate.webp"
+            "img":"./Certificates/Responsive Web Design Certificate.webp"
         },
         {
-            "img":"../Front-End-Development-Certificate.webp"
+            "img":"./Certificates/Front-End-Development-Certificate.webp"
         },
         {
-            "img":"../JavaScript Algorithms And Data Structures Certificate.webp"
+            "img":"./Certificates/JavaScript Algorithms And Data Structures Certificate.webp"
         },
         {
-            "img":"../C-Foundational-Certificate.webp"
+            "img":"./Certificates/C-Foundational-Certificate.webp"
         }
     ]        
 }

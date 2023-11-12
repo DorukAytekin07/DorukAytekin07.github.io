@@ -1,0 +1,73 @@
+.document-title{
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.quarie-container{
+    display:flex;
+    width: 100vw;
+    height: fit-content;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.text-container{
+    padding-left: 5px;
+    width: 50vw;
+}
+.quaire-code{
+    color: #303131;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 1.7rem;
+    width: 48vw;
+    background-color: #D0D1D2;
+    font-weight: 600;
+    text-align: center;
+}
+.quarie-explanation{
+    font-size: 1.5rem;
+    color: #F7F8F9;
+}
+.code-image{
+    float: right;
+    width: 48vw;
+    height: fit-content;
+    object-fit:contain;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+@media screen and (max-width: 870px) {
+    .quaire-code{
+        font-size: 1.4rem;
+    }
+    .quarie-explanation{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .quarie-container{
+        display: inline-block;
+    }
+    .text-container{
+        padding-left: 0;
+        padding-right: 0;
+        width: 98vw;
+        margin-bottom: 10px;
+    }
+    .quaire-code{
+        font-size: 2rem;
+        width: 98vw;
+    }
+    .quarie-explanation{
+        font-size: 1.5rem;
+    }
+    .code-image{
+        float:none;
+        width: 100vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

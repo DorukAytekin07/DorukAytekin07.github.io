@@ -3,7 +3,6 @@ import Sertifikalar from "../../JSON/certificates.json"
 
 export default class Certificates extends React.Component {
     certificate = Sertifikalar.certificates.map(sertifika => {
-        console.log(sertifika.img)
         return(<Certificate {...sertifika}></Certificate>)
     })
     render(){
