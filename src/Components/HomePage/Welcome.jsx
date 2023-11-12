@@ -4,7 +4,7 @@ export default class Welcome extends React.Component {
         return(
             <section id="home" className="home-text ">
                 <h1 className="home-text-title">Hello I am Doruk</h1>
-                <p className="home-text-desc">a Software Engineer</p>
+                <h1 className="home-text-desc">a Software Engineer</h1>
             </section>
         );
        
