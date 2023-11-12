@@ -2,7 +2,7 @@
     "mysql":[
         {
             "code": "mysql -u username -p",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
             "img": "./Documents/SQL/mysqlusernamecommand.webp"
         }
     ]

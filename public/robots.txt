@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: 
+
+Sitemap: https://dorukaytekin07.github.io/sitemap.xml
