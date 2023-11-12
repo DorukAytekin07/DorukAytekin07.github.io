@@ -22,7 +22,7 @@ export default class Certificates extends React.Component {
 class Certificate extends React.Component{
     render(){
         return(
-            <img className="certificate" src={this.props.img} alt="Doruk Aytekin Certificate" width={300} height={400}/>
+            <img className="certificate" src={this.props.img} alt="Doruk Aytekin Certificate" width={1280} height={720}/>
         )
     }
 }

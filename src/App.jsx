@@ -1,4 +1,3 @@
-import Footer from "./Components/HomePage/Footer"
 import Home from "./Components/Pages/Home";
 import SQL from "./Components/Pages/SQL";
 import Documents from "./Components/Pages/DocumentsPage";
