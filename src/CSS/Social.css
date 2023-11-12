@@ -33,6 +33,10 @@
         width:50px;
         margin: 50px auto;
     }
+    .platform-img{
+        width: 50px;
+        height: fit-content;
+    }
     #about-me{
         padding-top: 140px;
     }
