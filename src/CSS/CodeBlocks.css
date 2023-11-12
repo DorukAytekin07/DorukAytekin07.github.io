@@ -11,8 +11,9 @@
     margin-bottom: 60px;
 }
 .text-container{
-    padding-left: 5px;
     width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
 }
 .quaire-code{
     color: #303131;
