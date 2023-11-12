@@ -17,12 +17,12 @@ import './CSS/CodeBlocks.css'
 function App() {
   return(
     <HashRouter>
-        <Helmet>
+        {/* <Helmet>
           <title>Doruk Aytekin Personal Website</title>
           <meta name="keywords" content="Doruk Aytekin,doruk aytekin,Doruk,doruk" />
           <meta name="description" content="Hello to my personal website my name is Doruk Aytekin in this website i release my projects and publish my certificates"/>
           <link rel="canonical" href="https://dorukaytekin07.github.io"/>
-        </Helmet>
+        </Helmet> */}
         <Routes>
           <Route path="/" exact element={<Home/>}/>
           <Route path="/sql" exact element={<SQL/>} />
