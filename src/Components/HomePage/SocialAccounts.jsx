@@ -1,9 +1,9 @@
 import React from "react";
-import Hackerrank from "../../../public/SocialMediaAccounts/hackerrank.png"
-import Github from "../../../public/SocialMediaAccounts/github.png"
-import FreeCodeCamp from "../../../public/SocialMediaAccounts/free-code-camp.png"
-import Leetcode from "../../../public/SocialMediaAccounts/leetcode.png"
-import Linkedin from "../../../public/SocialMediaAccounts/linkedin.png"
+import Hackerrank from "/SocialMediaAccounts/hackerrank.png"
+import Github from "/SocialMediaAccounts/github.png"
+import FreeCodeCamp from "/SocialMediaAccounts/free-code-camp.png"
+import Leetcode from "/SocialMediaAccounts/leetcode.png"
+import Linkedin from "/SocialMediaAccounts/linkedin.png"
 export default class SocialAccounts extends React.Component {
     render(){
         return(
