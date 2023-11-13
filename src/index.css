@@ -4,7 +4,9 @@
     padding: 0;
     scroll-behavior: smooth;
     font-size: 20px;
-    overflow-x: hidden;}
+    overflow-x: hidden;
+    font-display: fallback;
+}
 body{
     font-family:Roboto;
     background: linear-gradient(67deg, #3a3d40 0%, #181719 100%);
