@@ -4,7 +4,7 @@ export default class Navbar extends React.Component {
     render(){
         return (
            <section className='nav-bar'>
-            <h2 className='nav-bar-p'>Doruk Aytekin</h2>
+            <p className='nav-bar-p'>Doruk Aytekin</p>
             <div className='nav-links'>
                 <Link to="/#home">Home</Link>
                 <Link to="/#works">Work</Link>
