@@ -1,9 +1,59 @@
 {
     "mysql":[
         {
-            "code": "mysql -u username -p",
+            "code": "MYSQL -u username -p",
             "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
             "img": "./Documents/SQL/mysqlusernamecommand.webp"
+        },
+        {
+            "code": "CREATE USER 'doruk'@'localhost';",
+            "explanation": "This command create a user which can access to database it has to take a name,host and password infact if you dont give a host it not define a host but you have to give a password like '1234' and a user name like 'doruk' however this command you can only run at the root at the database if you dont give permission to any user at the database",
+            "img": "./Documents/SQL/createuser.jpg"
+        },
+        {
+            "code": "SELECT user,host FROM mysql.user;",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/selectuserhost.jpg"
+        },
+        {
+            "code": "DROP USER 'doruk'@'localhost';",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/dropuser.jpg"
+        },
+        {
+            "code": "CREATE DATABASE lessondb;",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/createdatabase.jpg"
+        },
+        {
+            "code": "SHOW DATABASES;",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/showdatabases.jpg"
+        },
+        {
+            "code": "USE lessondb",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/usedatabase.jpg"
+        },
+        {
+            "code": "DROP DATABASE lessondb;",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/dropdatabase.jpg"
+        },
+        {
+            "code": "GRANT ALL PRIVILEGES ON lessondb.* TO 'doruk'@''localhost;",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/grantallprivileges.jpg"
+        },
+        {
+            "code": "SHOW GRANTS FOR 'doruk'@'localhost';",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/showgrants.jpg"
+        },
+        {
+            "code": "REVOKE ALL PRIVILEGES ON lessondb.* FROM 'doruk'@'localhost';",
+            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "img": "./Documents/SQL/revokeallprivileges.jpg"
         }
     ]
 
