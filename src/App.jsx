@@ -2,7 +2,7 @@ import Home from "./Components/Pages/Home";
 import SQL from "./Components/Pages/SQL";
 import Documents from "./Components/Pages/DocumentsPage";
 import { Routes, Route, HashRouter } from 'react-router-dom';
-import Helmet from 'react-helmet'
+
 
 import "./App.css"
 import './CSS/Certificates.css'
