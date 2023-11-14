@@ -1,6 +1,6 @@
 .footer{
     border-top: #eee 5px solid;
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,5 +8,5 @@
     width: 100%;
 }
 .footer-text{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }

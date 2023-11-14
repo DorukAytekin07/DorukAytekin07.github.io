@@ -1,0 +1,28 @@
+{
+    "questions":[
+        {
+            "question":"What is RDBMS",
+            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+        },
+        {
+            "question":"What is table",
+            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+        },
+        {
+            "question":"What is field",
+            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+        },
+        {
+            "question":"What is record or row",
+            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+        },
+        {
+            "question":"What is column",
+            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+        },
+        {
+            "question":"What is null value",
+            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+        }
+    ]
+}

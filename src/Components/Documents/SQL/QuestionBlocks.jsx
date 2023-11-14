@@ -4,7 +4,7 @@ export default class QuestionBlock extends React.Component {
     render() {
         return(
             <div className="basics-container">
-                <h2 className="basics-question">{this.props.question}</h2>
+                <h3 className="basics-question">{this.props.question}</h3>
                 <p className="basics-answer">{this.props.answer}</p>
             </div>
         );

@@ -1,0 +1,24 @@
+.basics-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 7px 0px 7px;
+    padding-left: 7px;
+    background-color: #D0D1D2;
+    border-radius: 10px;
+}
+.document-summary{
+    font-size: 1.5rem;
+    padding-left: 7px;
+    text-align: left;
+}
+.basics-question{
+    color: #303131;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+.basics-answer{
+    color: #303131;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
