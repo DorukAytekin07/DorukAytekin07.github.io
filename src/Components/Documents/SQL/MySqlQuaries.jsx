@@ -8,7 +8,7 @@ export default class MySQLQuaries extends React.Component{
     render(){
         return(
             <div>
-                <h1 className="document-title">MySQL Quaries</h1>
+                <h2 className="document-title">MySQL Quaries</h2>
                 {this.Quarie}
             </div>
         );

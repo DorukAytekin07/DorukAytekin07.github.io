@@ -8,7 +8,7 @@ export default class MySQLQuaries extends React.Component{
     render(){
         return(
             <div>
-                <h1 className="document-title">SQL Basics</h1>
+                <h2 className="document-title">SQL Basics</h2>
                 <p className="document-summary">Before dive into SQL syntax you must know sql and database basics therefore in this part you will learn basics of SQL and databases with questions</p>
                 {this.Question}
             </div>

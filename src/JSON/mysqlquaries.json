@@ -12,47 +12,47 @@
         },
         {
             "code": "SELECT user,host FROM mysql.user;",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "This command use for see all users can access to database it returns username and host seperately by the way this command same as the create user command this can only run at root of database or anyone you gave permission",
             "img": "./Documents/SQL/selectuserhost.jpg"
         },
         {
             "code": "DROP USER 'doruk'@'localhost';",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "DROP USER commmand delete a user account from the database but if user own any database objects system returns a error message does not drop user and this command as other user commands run only at the root of database or any user account that you gave permission",
             "img": "./Documents/SQL/dropuser.jpg"
         },
         {
             "code": "CREATE DATABASE lessondb;",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "With help of this command you can create a database but for this your account have permission for this or you must in the root of database",
             "img": "./Documents/SQL/createdatabase.jpg"
         },
         {
             "code": "SHOW DATABASES;",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "This command show us all databases that we can access by the way this command can run at every user account",
             "img": "./Documents/SQL/showdatabases.jpg"
         },
         {
             "code": "USE lessondb",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "That command provide us use the selected databases after this command we can execute sql queries for selected database like select or insert into or create table also this command too run at every user account",
             "img": "./Documents/SQL/usedatabase.jpg"
         },
         {
             "code": "DROP DATABASE lessondb;",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "That command delete database from the system but you have to be careful while executing this because with this command you will lose all database`s data from the system and not getting a error so as before I said you have to be careful while executing this command also this command cant run at all user accounts only that have permission on this and at root of database can run this command",
             "img": "./Documents/SQL/dropdatabase.jpg"
         },
         {
             "code": "GRANT ALL PRIVILEGES ON lessondb.* TO 'doruk'@''localhost;",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "With help of this command you can give permission on  selected database to selected user after the execute this command selected user can access to selected database howeover you might dont want to give all privileges to user you just want to give CREATE and SELECT privileges you write CREATE,SELECT instead of ALL PRIVILEGES and you can only give CREATE SELECT INSERT UPDATE DELETE INDEX ALTER DROP ALL privilegeses also help of this command you can make a user behave like root of database you make this with GRANT ALL PRIVILEGES ON *.* TO 'doruk'@'localhost' command after the execute user can create a database or create view moreover gives grants to other users and of course you can modify ALL PRIVILEGES part with CREATE,SELECT or other privileges that you wish",
             "img": "./Documents/SQL/grantallprivileges.jpg"
         },
         {
             "code": "SHOW GRANTS FOR 'doruk'@'localhost';",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "This commads show you all grants that you have and this command for root of database if you are in your own account you have to write SHOW GRANTS you dont have to write username and userhost",
             "img": "./Documents/SQL/showgrants.jpg"
         },
         {
             "code": "REVOKE ALL PRIVILEGES ON lessondb.* FROM 'doruk'@'localhost';",
-            "explanation": "Connect database as selected user with password and if you want you can connect root of database with mysql -u root -p command",
+            "explanation": "This Command work like GRANT command but it take privileges from user instead of give privileges and other features of command same as GRANT command so read the GRANT command therefore you can learn other features of command",
             "img": "./Documents/SQL/revokeallprivileges.jpg"
         }
     ]
