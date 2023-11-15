@@ -2,27 +2,27 @@
     "questions":[
         {
             "question":"What is RDBMS",
-            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+            "answer":"A relational database management system (RDBMS) is a collection of programs and capabilities that enable IT teams and others to create, update, administer and otherwise interact with a relational database. RDBMSes store data in the form of tables, with most commercial relational database management systems using Structured Query Language (SQL) to access the database. However, since SQL was invented after the initial development of the relational model, it is not necessary for RDBMS use. The RDBMS is the most popular database system among organizations across the world. It provides a dependable method of storing and retrieving large amounts of data while offering a combination of system performance and ease of implementation"
         },
         {
             "question":"What is table",
-            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+            "answer":"Tables is an arrangement of information it has column and row much like excel spreadsheet and it stores data about specific topic for instance a student table might has a data like student id,student name or student domain"
         },
         {
             "question":"What is field",
-            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+            "answer":"A field is an attribute of a record in a database table. You can think of a field like the “heading” of a column, or a label on a container of values. Fields in Metabase also contain metadata about the values the field contains field name field description data type and field type"
         },
         {
-            "question":"What is record or row",
-            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+            "question":"What is row",
+            "answer":"In the context of a relational database, a row (also called a tuple) represents a single, implicitly structured data item in a table. In simple terms, a database table can be thought of as consisting of rows and columns.Each row in a table represents a set of related data, and every row in the table has the same structure. For example, in a table that represents companies, each row would represent a single company. Columns might represent things like company name, company street address, whether the company is publicly held, its VAT number, etc. In a table that represents the association of employees with departments, each row would associate one employee with one department."
         },
         {
             "question":"What is column",
-            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+            "answer":"In a relational database, a column is a set of data values of a particular type, one value for each row of the database. A column may contain text values, numbers, or even pointers to files in the operating system. Columns typically contain simple types, though some relational database systems allow columns to contain more complex data types, such as whole documents, images, or even video clips.A column can also be called an attribute."
         },
         {
-            "question":"What is null value",
-            "answer":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, voluptates provident facere eum quos quisquam quis, maiores, obcaecati numquam quidem temporibus blanditiis reiciendis. Corrupti neque voluptas, repellendus sunt voluptate quos!"
+            "question":"What is NULL value",
+            "answer":"A field with a NULL value is a field with no value. If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value. Note: A NULL value is different from a zero value or a field that contains spaces."
         }
     ]
 }

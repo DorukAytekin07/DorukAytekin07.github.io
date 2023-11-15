@@ -32,7 +32,7 @@
         },
         {
             "code": "USE lessondb",
-            "explanation": "That command provide us use the selected databases after this command we can execute sql queries for selected database like select or insert into or create table also this command too run at every user account",
+            "explanation": "That command provide us use selected database after this command we can execute sql queries for selected database like select or insert into or create table also this command too run at every user account",
             "img": "./Documents/SQL/usedatabase.jpg"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "code": "GRANT ALL PRIVILEGES ON lessondb.* TO 'doruk'@''localhost;",
-            "explanation": "With help of this command you can give permission on  selected database to selected user after the execute this command selected user can access to selected database howeover you might dont want to give all privileges to user you just want to give CREATE and SELECT privileges you write CREATE,SELECT instead of ALL PRIVILEGES and you can only give CREATE SELECT INSERT UPDATE DELETE INDEX ALTER DROP ALL privilegeses also help of this command you can make a user behave like root of database you make this with GRANT ALL PRIVILEGES ON *.* TO 'doruk'@'localhost' command after the execute user can create a database or create view moreover gives grants to other users and of course you can modify ALL PRIVILEGES part with CREATE,SELECT or other privileges that you wish",
+            "explanation": "With help of this command you can give permission on  selected database to selected user after the execute this command selected user can access to selected database howeover you might dont want to give all privileges to user you just want to give CREATE and SELECT privileges you just write CREATE,SELECT instead of ALL PRIVILEGES and you can only give CREATE SELECT INSERT UPDATE DELETE INDEX ALTER DROP ALL privilegeses also help of this command you can make a user behave like root of database you make this with GRANT ALL PRIVILEGES ON *.* TO 'doruk'@'localhost' command after the execute user can create a database or create view moreover gives grants to other users and of course you can modify ALL PRIVILEGES part with CREATE,SELECT or other privileges that you wish",
             "img": "./Documents/SQL/grantallprivileges.jpg"
         },
         {

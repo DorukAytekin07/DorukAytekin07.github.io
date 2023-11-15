@@ -9,16 +9,21 @@
 .document-summary{
     font-size: 1.5rem;
     padding-left: 7px;
-    text-align: left;
+    padding-right: 7px;
+    text-align: justify;
 }
 .basics-question{
     color: #303131;
     padding-top: 10px;
     font-size: 2rem;
+    text-align: center;
 }
 .basics-answer{
     color: #303131;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 600;
     font-size: 1.5rem;
+    text-align: justify;
+    padding-right: 10px;
 }
