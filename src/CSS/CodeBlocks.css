@@ -47,6 +47,7 @@
 @media screen and (max-width: 870px) {
     .quaire-code{
         font-size: 1.4rem;
+        font-weight: 600;
     }
     .quarie-explanation{
         font-size: 1.4rem;
@@ -64,6 +65,7 @@
     }
     .quaire-code{
         font-size: 1.3rem;
+        font-weight: 600;
         width: 98vw;
     }
     .quarie-explanation{
