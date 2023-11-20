@@ -1,0 +1,145 @@
+{
+    "codes":[
+        {
+            "title":"SQL SELECT Statement",
+            "code":"SELECT column1,colum2, ... FROM table_name",
+            "explanation":"SELECT statement use for select data from a database"
+        },
+        {
+            "title":"SQL DISTINCT Keyword",
+            "code":"SELECT DISTINCT column1, column2, ... sFROM table_name;",
+            "explanation":"Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values."
+        },
+        {
+            "title":"SQL ORDER BY Keyword",
+            "code":"SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC;",
+            "explanation":"The ORDER BY keyword is used to sort the result-set in ascending or descending order."
+        },
+        {
+            "title":"SQL DESC Keyword",
+            "code":"SELECT * FROM Customers ORDER BY CustomerName DESC;",
+            "explanation":"The DESC command is used to sort the data returned in descending order. The above SQL statement selects all the columns from the Customers table, sorted descending by the CustomerName column:"
+        },
+        {
+            "title":"SQL ASC Keyword",
+            "code":"SELECT * FROM Customers ORDER BY CustomerName ASC;",
+            "explanation":"The ASC command is used to sort the data returned in ascending order. The above SQL statement selects all the columns from the Customers table, sorted by the CustomerName column:"
+        },
+        {
+            "title":"SQL COUNT() Function",
+            "code":"SELECT COUNT(column_name) FROM table_name WHERE condition;",
+            "explanation":"The COUNT() function returns the number of rows that matches a specified criterion."
+        },
+        {
+            "title":"SQL AVG() Function",
+            "code":"SELECT AVG(column_name) FROM table_name WHERE condition;",
+            "explanation":"The AVG() function returns the average value of a numeric column. "
+        },
+        {
+            "title":"SQL SUM() Function",
+            "code":"SELECT SUM(column_name) FROM table_name WHERE condition;",
+            "explanation":"The SUM() function returns the total sum of a numeric column. "
+        },
+        {
+            "title":"SQL MIN() Function",
+            "code":"SELECT MIN(column_name) FROM table_name",
+            "explanation":"The MIN() function returns the smallest value of the selected column. "
+        },
+        {
+            "title":"SQL MAX() Function",
+            "code":"SELECT MAX(column_name) FROM table_name",
+            "explanation":"The MAX() function returns the greatest value of the selected column."
+        },
+        {
+            "title":"SQL WHERE Clause",
+            "code":"SELECT column1, column2, ... FROM table_name WHERE condition;",
+            "explanation":"The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition."
+        },
+        {
+            "title":"SQL HAVING Clause",
+            "code":"SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5;",
+            "explanation":"The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions for instance The above SQL statement lists the number of customers in each country. Only include countries with more than 5 customers:"
+        },
+        {
+            "title":"SQL AND Operator",
+            "code":"SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%';",
+            "explanation":"The WHERE clause can contain one or many AND operators. The AND operator is used to filter records based on more than one condition, like above SQL statament at above if you want to return all customers from Spain that starts with the letter 'G':"
+        },
+        {
+            "title":"SQL OR OPERATOR",
+            "code":"SELECT * FROM Customers WHERE City='Berlin' OR City='München';",
+            "explanation":"The OR command is used with WHERE to include rows where either condition is true. The above SQL statement selects all fields from Customers where city is Berlin OR city is München:"
+        },
+        {
+            "title":"SQL IN Operator",
+            "code":"SELECT column_name(s) FROM table_name WHERE column_name IN (value1, value2, ...);",
+            "explanation":"The IN operator allows you to specify multiple values in a WHERE clause. The IN operator is a shorthand for multiple OR conditions."
+        },
+        {
+            "title":"SQL BETWEEN Operator",
+            "code":"SELECT column_name(s) FROM table_name WHERE column_name BETWEEN value1 AND value2;",
+            "explanation":"The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates. The BETWEEN operator is inclusive: begin and end values are included. "
+        },
+        {
+            "title":"SQL LIKE Operator",
+            "code":"SELECT * FROM Customers WHERE CustomerName LIKE 'a%';",
+            "explanation":"The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. There are two wildcards often used in conjunction with the LIKE operator: The percent sign % represents zero, one, or multiple characters and The underscore sign _ represents one, single character The above sql statement return all customers that starts with the letter 'a':"
+        },
+        {
+            "title":"SQL GROUP BY Statement",
+            "code":"SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country;",
+            "explanation":"The GROUP BY statement groups rows that have the same values into summary rows, like find the number of customers in each country. The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns. The above SQL statement lists the number of customers in each country:"
+        },
+        {
+            "title":"The SQL CREATE TABLE Statement",
+            "code":"CREATE TABLE table_name (column1 datatype,column2 datatype,column3 datatype, ... );",
+            "explanation":"The CREATE TABLE statement is used to create a new table in a database."
+        },
+        {
+            "title":"SQL INSERT INTO Statement",
+            "code":"INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);",
+            "explanation":"The INSERT INTO statement is used to insert new records in a table."
+        },
+        {
+            "title":"The SQL UPDATE Statement",
+            "code":"UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;",
+            "explanation":"The UPDATE statement is used to modify the existing records in a table."
+        },
+        {
+            "title":"SQL DELETE Statement",
+            "code":"DELETE FROM table_name WHERE condition;",
+            "explanation":"The DELETE statement is used to delete existing records in a table. By the way Be careful when deleting records in a table! Notice the WHERE clause in the DELETE statement. The WHERE clause specifies which record(s) should be deleted. If you omit the WHERE clause, all records in the table will be deleted!"
+        },
+        {
+            "title":"ALTER TABLE ADD Statement",
+            "code":"ALTER TABLE table_name ADD column_name datatype;",
+            "explanation":"To add a column in a table, use the above syntax:"
+        },
+        {
+            "title":"ALTER TABLE DROP Statement",
+            "code":"ALTER TABLE table_name DROP column_name datatype;",
+            "explanation":"To delete a column in a table, use the above syntax (notice that some database systems don't allow deleting a column)"
+        },
+        {
+            "title":"ALTER TABLE RENAME COLUMN Statement",
+            "code":"ALTER TABLE table_name RENAME COLUMN old_name to new_name;",
+            "explanation":"To rename a column in a table, use the above syntax:"
+        },
+        
+        {
+            "title":"ALTER TABLE ALTER/MODIFY DATATYPE",
+            "code":"ALTER TABLE table_name MODIFY/ALTER column_name datatype;",
+            "explanation":"To change the data type of a column in a table, use the above syntax:"
+        },
+        {
+            "title":"DROP TABLE Statement",
+            "code":"DROP TABLE table_name",
+            "explanation":"The DROP TABLE statement is used to drop an existing table in a database. Be careful before dropping a table. Deleting a table will result in loss of complete information stored in the table!"
+        },
+        {
+            "title":"TRUNCATE TABLE Statement",
+            "code":"TRUNCATE TABLE table_name",
+            "explanation":"The TRUNCATE TABLE command deletes the data inside a table, but not the table itself."
+        }
+    ]
+}

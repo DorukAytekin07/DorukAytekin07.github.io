@@ -2,6 +2,7 @@ import React from "react";
 import DocumentNavbar from '../DocumentNavbar'
 import MySQLQuaries from "../Documents/SQL/MySqlQuaries";
 import DBQuestions from '../Documents/SQL/DBQuestions'
+import SQLCodes from '../Documents/SQL/SQLCodes'
 import Footer from '../HomePage/Footer'
 import Helmet from 'react-helmet'
 export default function SQL(){
@@ -16,6 +17,7 @@ export default function SQL(){
             <DocumentNavbar></DocumentNavbar>
             <DBQuestions></DBQuestions>
             <MySQLQuaries></MySQLQuaries>
+            <SQLCodes></SQLCodes>
             <Footer></Footer>
         </div>
     );

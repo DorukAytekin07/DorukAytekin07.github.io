@@ -13,6 +13,7 @@ import './CSS/Social.css'
 import './CSS/Footer.css'
 import './CSS/CodeBlocks.css'
 import './CSS/QuestionBlocks.css'
+import './CSS/SQLCodes.css'
 
 function App() {
   return(
