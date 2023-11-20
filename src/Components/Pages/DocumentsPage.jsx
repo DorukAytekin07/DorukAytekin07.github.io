@@ -38,8 +38,5 @@ class Document extends React.Component {
                 <a className="project-a" href={this.props.link} target="_blank"><p>Show More</p></a>
             </div>
         );
-            
-
     }
-    
 }

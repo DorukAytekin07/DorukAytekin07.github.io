@@ -7,7 +7,6 @@ import Navbar from "../HomePage/Navbar.jsx";
 import Documents from "../HomePage/Documents.jsx";
 import Footer from "../HomePage/Footer.jsx";
 import Helmet from 'react-helmet'
-
 export default function Home(){
     return(
         <div>

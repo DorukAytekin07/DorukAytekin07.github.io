@@ -7,7 +7,6 @@ export default class Documents extends React.Component {
             return(<Document {...dokuman}></Document>)
         }
     )
-
     render(){
         return (
             <div>
@@ -21,7 +20,6 @@ export default class Documents extends React.Component {
         );
     }
 }
-
 class Document extends React.Component {
     render(){
         return(
@@ -31,8 +29,5 @@ class Document extends React.Component {
                 <a className="project-a" href={this.props.link} target="_blank"><p>Show More</p></a>
             </div>
         );
-            
-
     }
-    
 }

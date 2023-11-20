@@ -2,8 +2,6 @@ import Home from "./Components/Pages/Home";
 import SQL from "./Components/Pages/SQL";
 import Documents from "./Components/Pages/DocumentsPage";
 import { Routes, Route, HashRouter } from 'react-router-dom';
-
-
 import "./App.css"
 import './CSS/Certificates.css'
 import './CSS/Projects.css'
@@ -14,7 +12,6 @@ import './CSS/Footer.css'
 import './CSS/CodeBlocks.css'
 import './CSS/QuestionBlocks.css'
 import './CSS/SQLCodes.css'
-
 function App() {
   return(
     <HashRouter>
@@ -26,5 +23,4 @@ function App() {
     </HashRouter>
   );  
 }
-
 export default App

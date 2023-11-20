@@ -1,5 +1,4 @@
 import React from "react";
-
 export default class QuestionBlock extends React.Component {
     render() {
         return(

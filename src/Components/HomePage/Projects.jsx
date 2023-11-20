@@ -1,13 +1,9 @@
 import React from "react";
 import Projeler from '../../JSON/projects.json'
-
 export default class Projects extends React.Component{
-    
-    
     proje = Projeler.projects.map(project => {              
         return(<Project {...project}></Project>) 
     })
-
     render(){
         return(
             <div id="works">
@@ -15,10 +11,7 @@ export default class Projects extends React.Component{
                 <section id="work">
                     {this.proje}
                 </section>
-        
             </div>
-            
-    
         );    
     }
 }
@@ -31,8 +24,5 @@ class Project extends React.Component {
                 <a className="project-a" href={this.props.href} target="_blank"><p>Show More</p></a>
             </div>
         );
-            
-        
     }
-    
 }

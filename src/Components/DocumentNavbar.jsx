@@ -7,7 +7,6 @@ export default class Navbar extends React.Component {
                     <a href="/" className='link'>Doruk Aytekin</a>
                 </h1>
             </section> 
-        );
-        
+        );  
     }
 }
