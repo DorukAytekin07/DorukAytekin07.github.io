@@ -1,6 +1,6 @@
 import React from "react";
 import CodeBlock from "./QuariesBlocks";
-import MySQLQuariesJSON from '../../../JSON/SQLcodes.json'
+import MySQLQuariesJSON from '../../../JSON/sqlcodes.json'
 export default class MySQLQuaries extends React.Component{
     Quarie = MySQLQuariesJSON.codes.map(Quaries => {
         return(<CodeBlock {...Quaries}></CodeBlock>)
