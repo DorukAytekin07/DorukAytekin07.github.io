@@ -35,6 +35,9 @@
         },
         {
             "img":"./Certificates/C-Foundational-Certificate.webp"
+        },
+        {
+            "img":"./Certificates/Scientific-Compution-With-Python.webp"
         }
     ]        
 }
