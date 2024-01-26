@@ -1,14 +1,14 @@
 {
     "document":[
         {
-            "img":"./Documents/SQL/sql-server.webp",
-            "name":"MySQL",
-            "link":"#/sql"
+            "img":"./Documents/Math/math-book.png",
+            "name":"Mathematic",
+            "link":"#/math"
         },
         {
             "img":"./Documents/SQL/sql-server.webp",
-            "name":"Mathematic",
-            "link":"#/math"
+            "name":"MySQL",
+            "link":"#/sql"
         }
     ]
 }

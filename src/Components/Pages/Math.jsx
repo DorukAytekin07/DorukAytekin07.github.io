@@ -1,5 +1,5 @@
 import React from "react";
-import Documentlar from '../../JSON/mathematictopics.json'
+import Documentlar from '../../JSON/mathtopics.json'
 import Navbar from "../DocumentNavbar";
 import Footer from "../HomePage/Footer";
 // import Helmet from 'react-helmet'

@@ -1,7 +1,9 @@
 import Home from "./Components/Pages/Home";
-import SQL from "./Components/Pages/SQL";
 import Documents from "./Components/Pages/DocumentsPage";
+import SQL from "./Components/Pages/SQL";
 import Mathematic from "./Components/Pages/Math";
+import Algebra from "./Components/Documents/Math/Algebra";
+import PreCalculus from "./Components/Documents/Math/PreCalculus";
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import "./App.css"
 import './CSS/Certificates.css'
@@ -18,9 +20,11 @@ function App() {
     <HashRouter>
         <Routes>
           <Route path="/" exact element={<Home/>}/>
+          <Route path="/documents" exact element={<Documents/>} />
           <Route path="/sql" exact element={<SQL/>} />
           <Route path="/math" exact element={<Mathematic/>} />
-          <Route path="/documents" exact element={<Documents/>} />
+          <Route path="/algebra" exact element={<Algebra/>} />
+          <Route path="/precalculus" exact element={<PreCalculus/>} />
         </Routes>
     </HashRouter>
   );  
