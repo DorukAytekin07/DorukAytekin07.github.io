@@ -2,8 +2,13 @@
     "document":[
         {
             "img":"./Documents/SQL/sql-server.webp",
-            "name":"MySQL Documentation",
+            "name":"MySQL",
             "link":"#/sql"
+        },
+        {
+            "img":"./Documents/SQL/sql-server.webp",
+            "name":"Mathematic",
+            "link":"#/math"
         }
     ]
 }

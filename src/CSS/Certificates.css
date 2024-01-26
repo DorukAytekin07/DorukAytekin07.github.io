@@ -8,7 +8,7 @@
 }
 .certificate{
     width: 300px;
-    height: fit-content;
+    height: auto;
     background-color:#fff;
     border:solid 3vmin #111;
     border-bottom-color:#000;
