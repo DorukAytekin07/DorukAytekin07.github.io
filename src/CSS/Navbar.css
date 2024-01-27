@@ -8,6 +8,7 @@
     background-color:var(--images-background-colors);
     height: 75px;
     align-items: center;
+    z-index: 2;
 }
 .nav-bar-p{
     font-weight: bold;

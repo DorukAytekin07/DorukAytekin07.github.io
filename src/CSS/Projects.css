@@ -41,7 +41,6 @@
     margin-right: 10px;
     width:310px;
     padding: 3px;
-    z-index: -2;
     
 }
 .project-img{
@@ -92,7 +91,7 @@
     }
     .project-a p{
         font-weight: 600;
-        font-size: 2rem;;
+        font-size: 2rem;
     }
     #work::-webkit-scrollbar {
         display: none;
