@@ -18,6 +18,15 @@
     text-decoration: none;
     font-weight: 600;
 }
+.pdf-container{
+    width:100%;
+    height: 100vh;
+    background-color: #111;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 @media screen and (max-width: 870px) {}
 @media screen and (max-width: 580px) {}
