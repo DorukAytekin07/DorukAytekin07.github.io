@@ -2,7 +2,7 @@
     padding-top: 85px;
 }
 .about-me-title{
-    color: azure;
+    color: var(--text-color);
     text-align: center;
     font-size: 4rem;
 }

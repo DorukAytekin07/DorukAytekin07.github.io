@@ -25,7 +25,7 @@
     box-sizing: content-box;
     align-items: center;
     justify-content: center;
-    color: azure;
+    color: var(--text-color);
     font-size: 4rem;
     width: 100vw;
     margin: 0 auto;
@@ -34,11 +34,14 @@
 .project-div{
     flex: 0 0 auto;
     border-radius: 2%;
-    background-color: #004F98;
-    border:5px #004F98 solid;
+    background-color: var(--images-background-colors);
+    border:5px var(--images-background-colors) solid;
     margin:10px auto;
+    margin-left: 10px;
+    margin-right: 10px;
     width:310px;
     padding: 3px;
+    z-index: -2;
     
 }
 .project-img{
@@ -47,6 +50,7 @@
     padding: 10px 10px;;
     border-radius: 5%;
     width:100%;
+    filter: brightness(90%);
     height:300px;;
 }
 .project-p{
@@ -56,7 +60,7 @@
     margin: 0 auto; 
     margin: 20px auto;
     font-size: 2.3rem;
-    color: azure;
+    color: var(--text-color);
 }
 .project-a{
     text-decoration: none;
@@ -64,13 +68,13 @@
 }
 .project-a:hover{
     text-decoration: underline;
-    color: azure;
+    color: var(--text-color);
 }
 .project-a p{
     width: fit-content;
     margin: 0 auto; 
     padding: 20px;
-    background-color: hsl(209, 100%, 30%);
+    background-color: var(--images-background-colors);
     border-radius: 5px;;
     margin-top: 20px;
     font-weight: 600;

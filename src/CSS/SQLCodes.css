@@ -9,7 +9,7 @@
     padding-top: 8px;
     padding-bottom: 20px;
     font-size: 2rem;
-    color: #F7F8F9;
+    color: var(--text-color);
     text-align: left;
     padding-left: 7px;
     padding-right: 7px;
@@ -33,7 +33,7 @@
 .sql-quarie-explanation{
     padding-top: 8px;
     font-size: 1.5rem;
-    color: #F7F8F9;
+    color: var(--text-color);
     text-align: justify;
     padding-left: 7px;
     padding-right: 7px;

@@ -17,9 +17,11 @@
     border-right-color:#111;
     border-top-color:#222;
     box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    filter: brightness(80%);
+    z-index: -1;
 }
 .certificates-title{
-    color: azure;
+    color: var(--text-color);
     text-align: center;
     font-size: 4rem;
     margin-bottom:5vh;

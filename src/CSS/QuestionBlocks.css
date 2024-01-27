@@ -12,6 +12,7 @@
     padding-right: 7px;
     padding-bottom: 10px;
     text-align: justify;
+    color: var(--text-color);
 }
 .basics-question{
     color: #303131;

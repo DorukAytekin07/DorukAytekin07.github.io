@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: hsl(209, 100%, 30%);
+    background-color:var(--images-background-colors);
     height: 75px;
     align-items: center;
 }
@@ -13,11 +13,11 @@
     font-weight: bold;
     padding-left: 10px;
     font-size: 2rem;
-    color: azure;
+    color: var(--text-color);
     text-align: center;
 }
 .nav-links a{
-    color: azure;
+    color: var(--text-color);
     padding-right: 50px;
     font-size: 2rem;
     text-decoration: none;
@@ -33,7 +33,7 @@
 .nav-bar-document{
     display: flex;
     flex-direction: row;
-    background-color: hsl(209, 100%, 30%);
+    background-color:var(--images-background-colors);
     height: 75px;
 }
 /*---------------------------------------------*/
@@ -45,7 +45,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: hsl(209, 100%, 30%);
+        background-color:var(--images-background-colors);
         height: fit-content;  
     }
     /*-------------*/
@@ -59,14 +59,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: hsl(209, 100%, 30%);
+        background-color:var(--images-background-colors);
         height: fit-content;  
     }
     .nav-bar-p{
         font-weight: bold;
         padding-left: 10px;
         font-size: 3rem;
-        color: azure;
+        color: var(--text-color);
     }
     .nav-bar{
         display: flex;
