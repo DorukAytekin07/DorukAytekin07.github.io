@@ -1,4 +1,5 @@
 import Home from "./Components/Pages/Home";
+import { AdminPanel } from "./Components/Pages/AdminPanel.jsx";
 import Documents from "./Components/Pages/DocumentsPage";
 import SQL from "./Components/Pages/SQL";
 import Mathematic from "./Components/Pages/Math";
@@ -15,11 +16,13 @@ import './CSS/Footer.css'
 import './CSS/CodeBlocks.css'
 import './CSS/QuestionBlocks.css'
 import './CSS/SQLCodes.css'
+import "./Components/Admin/CSS/LoginPage.css"
 function App() {
   return(
     <HashRouter>
         <Routes>
           <Route path="/" exact element={<Home/>}/>
+          <Route path="/adminpanel" exact element={<AdminPanel/>}/>
           <Route path="/documents" exact element={<Documents/>} />
           <Route path="/sql" exact element={<SQL/>} />
           <Route path="/math" exact element={<Mathematic/>} />

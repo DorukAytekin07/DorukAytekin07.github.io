@@ -1,6 +1,7 @@
 /* @import url(https://fonts.googleapis.com/css?family=Roboto); */
 :root{
     --text-color:#F0ECE5;
+    --text-color2:#B6BBC4;
     --main-background-color1:linear-gradient(360deg, #161A30 0%, #31304D 100%);
     --main-background-color2:#161A30;
     --main-background-color3:linear-gradient(180deg, rgba(22,26,48,1) 0%, rgba(49,48,77,1) 50%, rgba(77,76,125,1) 100%);
