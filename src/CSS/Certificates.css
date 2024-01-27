@@ -46,6 +46,11 @@
         gap: 1rem;
     }
     .certificate{
+        margin-left: 10px;
+        margin-right: 10px;
         width: 270px;
+    }
+    .certificates-container::-webkit-scrollbar{
+        display: none;
     }
 }
