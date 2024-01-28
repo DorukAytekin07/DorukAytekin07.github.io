@@ -6,7 +6,7 @@ import SQL from "./Components/Pages/SQL";
 import Mathematic from "./Components/Pages/Math";
 import Algebra from "./Components/Documents/Math/Algebra";
 import PreCalculus from "./Components/Documents/Math/PreCalculus";
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter,Router } from 'react-router-dom';
 import "./App.css"
 import './CSS/Certificates.css'
 import './CSS/Projects.css'
@@ -20,8 +20,8 @@ import './CSS/SQLCodes.css'
 import "./Components/Admin/CSS/LoginPage.css"
 function App() {
   return(
-    <HashRouter>
-        <Routes>
+    <Router>
+        <Routes history={hashHistory}>
           <Route path="/" exact element={<Home/>}/>
           <Route path="/adminpanel" exact element={<AdminPanel/>}/>
           <Route path="/adminpage" exact element={<AdminPage/>}/>
@@ -31,7 +31,7 @@ function App() {
           <Route path="/algebra" exact element={<Algebra/>} />
           <Route path="/precalculus" exact element={<PreCalculus/>} />
         </Routes>
-    </HashRouter>
+    </Router>
   );  
 }
 export default App
