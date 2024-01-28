@@ -1,5 +1,6 @@
 import Home from "./Components/Pages/Home";
 import { AdminPanel } from "./Components/Pages/AdminPanel.jsx";
+import AdminPage from "./Components/Admin/AdminPage.jsx";
 import Documents from "./Components/Pages/DocumentsPage";
 import SQL from "./Components/Pages/SQL";
 import Mathematic from "./Components/Pages/Math";
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home/>}/>
           <Route path="/adminpanel" exact element={<AdminPanel/>}/>
+          <Route path="/adminpage" exact element={<AdminPage/>}/>
           <Route path="/documents" exact element={<Documents/>} />
           <Route path="/sql" exact element={<SQL/>} />
           <Route path="/math" exact element={<Mathematic/>} />
