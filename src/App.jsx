@@ -20,18 +20,39 @@ import './CSS/SQLCodes.css'
 import "./Components/Admin/CSS/LoginPage.css"
 function App() {
   return(
-    <HashRouter>
+    <BrowserRouter>
         <Routes>
           <Route path="/" exact element={<Home/>}/>
-          <Route path="/adminpanel" exact element={<AdminPanel/>}/>
-          <Route path="/adminpage" exact element={<AdminPage/>}/>
-          <Route path="/documents" exact element={<Documents/>} />
-          <Route path="/sql" exact element={<SQL/>} />
-          <Route path="/math" exact element={<Mathematic/>} />
-          <Route path="/algebra" exact element={<Algebra/>} />
-          <Route path="/precalculus" exact element={<PreCalculus/>} />
         </Routes>
-    </HashRouter>
+
+        <Routes>
+          <Route path="/adminpanel" exact element={<AdminPanel/>}/>
+        </Routes>
+
+        <Routes>
+          <Route path="/adminpage" exact element={<AdminPage/>}/>
+        </Routes>
+
+        <Routes>
+          <Route path="/documents" exact element={<Documents/>} />
+        </Routes>
+          
+        <Routes>
+          <Route path="/sql" exact element={<SQL/>} />
+        </Routes>
+
+        <Routes>
+          <Route path="/math" exact element={<Mathematic/>} />
+        </Routes>
+          
+        <Routes>
+          <Route path="/algebra" exact element={<Algebra/>} />
+        </Routes>
+
+        <Routes>
+          <Route path="/precalculus" exact element={<PreCalculus/>} />        
+        </Routes>
+    </BrowserRouter>
   );  
 }
 export default App
