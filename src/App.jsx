@@ -20,7 +20,7 @@ import './CSS/SQLCodes.css'
 import "./Components/Admin/CSS/LoginPage.css"
 function App() {
   return(
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
           <Route path="/" exact element={<Home/>}/>
           <Route path="/adminpanel" exact element={<AdminPanel/>}/>
@@ -31,7 +31,7 @@ function App() {
           <Route path="/algebra" exact element={<Algebra/>} />
           <Route path="/precalculus" exact element={<PreCalculus/>} />
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );  
 }
 export default App
