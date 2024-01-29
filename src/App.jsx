@@ -23,6 +23,7 @@ import './CSS/QuestionBlocks.css'
 import './CSS/SQLCodes.css'
 import "./Components/Admin/CSS/LoginPage.css"
 import "./Components/Admin/CSS/AdminPage.css"
+import "./Components/Admin/CSS/AdminCertificates.css"
 function App() {
   return(
     <HashRouter>
