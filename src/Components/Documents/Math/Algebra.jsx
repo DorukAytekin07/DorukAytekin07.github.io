@@ -9,7 +9,7 @@ export const Algebra = () => {
     return(
         <div className="pdf-container">
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-                <Viewer fileUrl={"./Documents/Math/algebra.pdf"}
+                <Viewer fileUrl={"/Documents/Math/algebra.pdf"}
                     plugins={[defaultLayoutPluginInstance]} />
             </Worker>
         </div>   

@@ -3,12 +3,12 @@
         {
             "img":"./Documents/Math/math-book.png",
             "name":"Mathematic",
-            "link":"#/math"
+            "link":"/math"
         },
         {
             "img":"./Documents/SQL/sql-server.webp",
             "name":"MySQL",
-            "link":"#/sql"
+            "link":"/sql"
         }
     ]
 }

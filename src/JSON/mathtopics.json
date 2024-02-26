@@ -4,12 +4,12 @@
         {
             "img":"./Documents/Math/algebra.png",
             "name":"Algebra",
-            "link":"#algebra"
+            "link":"/algebra"
         },
         {
             "img":"./Documents/Math/calculus.png",
             "name":"PreCalculus",
-            "link":"#precalculus"
+            "link":"/precalculus"
         }
     ]
 }

@@ -15,7 +15,7 @@ export default class Documents extends React.Component {
                     <title>Documentations</title>
                     <meta name="keywords" content="Learn SQL,Learn MySQL,SQL Documentation,MySQL Documentation,Programing Documentations" />
                     <meta name="description" content="in this page you will see all documentations that i write" />
-                    <link rel="canonical" href="https://dorukaytekin07.github.io/#/documents"/>
+                    <link rel="canonical" href="https://dorukdev07.web.app/documents"/>
                 </Helmet>
                 <Navbar></Navbar>
                 <section className="certificates-container paddingtopdocuments">
@@ -34,7 +34,7 @@ class Document extends React.Component {
             <div className="project-div">
                 <img className="project-img" src={this.props.img} alt="Doruk Aytekin Document"/>
                 <h3 className="project-p">{this.props.name}</h3>
-                <a className="project-a" href={this.props.link} target="_blank"><p>Show More</p></a>
+                <a className="project-a" href={this.props.link} target="_blank" rel="noopener"><p>Show More</p></a>
             </div>
         );
     }
