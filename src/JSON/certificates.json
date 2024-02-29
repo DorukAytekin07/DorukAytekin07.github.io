@@ -1,6 +1,9 @@
 {
     "certificates":[
         {
+            "img":"./Certificates/Software-Engineer-Intern-Certificate.webp"
+        },
+        {
             "img":"./Certificates/Java Certificate.webp"
         },
         {
@@ -20,6 +23,9 @@
         },
         {
             "img":"./Certificates/SQL Certificate.webp"
+        },
+        {
+            "img":"./Certificates/SQL-Intermediate-Certificate.webp"
         },
         {
             "img":"./Certificates/React Certificate.webp"
